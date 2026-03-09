@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Recipe Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Recipe Generator</h1>
+
+        <button id="randomBtn">Get Random Recipe</button>
+        <div id="randomRecipe" class="recipe-box"></div>
+
+        <h2>All Recipes</h2>
+        <ul id="recipeList"></ul>
+
+        <h2>Add a New Recipe</h2>
+        <form id="addForm">
+            <input type="text" id="name" placeholder="Recipe Name" required>
+            <input type="text" id="ingredients" placeholder="Ingredients (comma-separated)" required>
+            <textarea id="instructions" placeholder="Instructions" required></textarea>
+            <button type="submit">Add Recipe</button>
+        </form>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+</html>
